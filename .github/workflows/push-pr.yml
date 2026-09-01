@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - main
       - "release/**"
     
     paths:
@@ -9,7 +9,7 @@ on:
   
   pull_request:
     branches:
-      - master
+      - main
       - "release/**"
 
 jobs:
